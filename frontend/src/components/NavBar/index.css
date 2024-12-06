@@ -22,9 +22,9 @@
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    gap: 2.5vw;
+    gap: 2vw;
 }
-.code-btn-nav{
+.code-btn-nav1{
     background-color: #FF7373;
     width: 9vw;
     height: 5vh;
@@ -39,6 +39,9 @@
     justify-content: center;
     align-items: center;  
     cursor: pointer;
+}
+.code-btn-nav1:hover{
+    opacity: 0.5;
 }
 .book-btn-nav{
     background-color: #FF7373;
@@ -139,7 +142,28 @@
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    gap: 1vw;
+    gap: 1.5vw;
+}
+.code-btn-nav2{
+    background-color: #73ABFF;
+    width: 9vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+    position: relative;
+    right: 1.5vw;
+}
+.code-btn-nav2:hover{
+    opacity: 0.5;
 }
 .reg-btn-nav{
     background-color: #FF7373;

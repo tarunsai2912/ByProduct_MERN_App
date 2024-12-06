@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import { QRCodeSVG } from 'qrcode.react'
 
-const url = 'http://localhost:3000/menu'
+const url = 'https://by-product-mern-app.vercel.app/'
 
 function QRPage() {
   return (
