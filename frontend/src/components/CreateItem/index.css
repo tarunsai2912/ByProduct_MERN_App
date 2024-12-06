@@ -1,0 +1,131 @@
+.create{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px #FFFFFF40;
+    border-radius: 20px;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    z-index: 1000;
+    position: fixed;
+    top: 20vh;
+    left: 25vw;
+}
+.create-head{
+    font-family: DM Sans;
+    font-size: 1.6vw;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+}
+.log-img-cross{
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+}
+.create-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-name-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.create-name-head{
+    text-align: right;
+    width: 13vw;
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #000000;
+}
+.create-name-inp{
+    width: 20vw;
+    height: 4vh;
+    border: 1px solid #000000;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: left;
+    color: #8E8E8E;
+    padding-left: 1vw;
+}
+.create-desc-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.create-desc-head{
+    text-align: right;
+    width: 13vw;
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #000000;
+}
+.create-desc-inp{
+    width: 20vw;
+    height: 4vh;
+    border: 1px solid #000000;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: left;
+    color: #8E8E8E;
+    padding-left: 1vw;
+}
+.create-price-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.create-price-head{
+    text-align: right;
+    width: 13vw;
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #000000;
+}
+.create-price-inp{
+    width: 20vw;
+    height: 4vh;
+    border: 1px solid #000000;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: left;
+    color: #8E8E8E;
+    padding-left: 1vw;
+}
+.create-btn{
+    background-color: #73ABFF;
+    width: 8.5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+}
+.create-btn:hover{
+    opacity: 0.5;
+}

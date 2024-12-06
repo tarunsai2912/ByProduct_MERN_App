@@ -1,0 +1,94 @@
+.admin{
+    background-color: #EDEDED;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.admin-head-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.5vw;
+}
+.admin-home{
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+    cursor: pointer;
+    position: relative;
+    right: 38vw;
+}
+.admin-home:hover{
+    opacity: 0.5;
+}
+.admin-home-para{
+    font-family: DM Sans;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.admin-head{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 2vw;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+.admin-para{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 1.3vw;
+    color: #8E8E8E;
+    font-weight: 700;
+    text-align: center;
+}
+.admin-div{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.admin-each-div{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+.admin-each-name{
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+.admin-each-quant{
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+.admin-each-price{
+    font-family: DM Sans;
+    font-size: 1.1vw;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
