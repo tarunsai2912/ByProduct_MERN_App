@@ -20,6 +20,14 @@
     font-weight: 700;
     text-align: center;
 }
+.menu-para{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 1.3vw;
+    color: #8E8E8E;
+    font-weight: 700;
+    text-align: center;
+}
 .menu-all-div{
     width: 97%;
     display: flex;

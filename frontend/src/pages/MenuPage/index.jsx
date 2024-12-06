@@ -73,6 +73,7 @@ function MenuPage({isCreate, setCreate, isLoginOpen, setLoginOpen, isRegisterOpe
       <div className='menu-div' style={{opacity: isLoginOpen || isRegisterOpen || isCreate ? '0.1' : '1'}}> 
         <h1 className='menu-head'>Menu</h1> 
         {loading && <ClipLoader color="#000" />}
+        {!loading && menuItems.length === 0 && <p className='menu-para'>Please Add Food Items</p>}
         {!loading && menuItems.length > 0 && <div className='menu-all-div'>
         {menuItems.map(item => ( 
           <div className='menu-each-div' key={item._id}> 
