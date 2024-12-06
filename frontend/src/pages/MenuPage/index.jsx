@@ -10,7 +10,7 @@ import Register from '../../components/Register'
 import axios from 'axios'
 import './index.css'
 
-const url = 'http://localhost:3003/api'
+const url = 'https://by-product-mern-app-backend.vercel.app/api'
 
 function MenuPage({isCreate, setCreate, isLoginOpen, setLoginOpen, isRegisterOpen, setRegisterOpen}) {
 

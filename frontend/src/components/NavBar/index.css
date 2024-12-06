@@ -24,6 +24,22 @@
     align-items: center;
     gap: 2.5vw;
 }
+.code-btn-nav{
+    background-color: #FF7373;
+    width: 9vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+}
 .book-btn-nav{
     background-color: #FF7373;
     width: 9vw;
@@ -38,7 +54,6 @@
     display: flex;
     justify-content: center;
     align-items: center;  
-    gap: .2vw;
     cursor: pointer;
 }
 .book-btn-nav:hover{

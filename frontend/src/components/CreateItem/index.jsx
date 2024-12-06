@@ -5,7 +5,7 @@ import ClipLoader from "react-spinners/ClipLoader"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios'
-const url = 'http://localhost:3003/api'
+const url = 'https://by-product-mern-app-backend.vercel.app/api'
 
 function CreateItem({setCreate}) {
   

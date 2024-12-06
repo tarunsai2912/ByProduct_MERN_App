@@ -1,0 +1,15 @@
+.qr{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qr-head{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 2vw;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}

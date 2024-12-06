@@ -7,7 +7,7 @@ import nameImg from '../../assets/restaurant.png'
 import quantityImg from '../../assets/quantity.png'
 import priceImg from '../../assets/dollar.png'
 import homeImg from '../../assets/home.png'
-const url = 'http://localhost:3003/api'
+const url = 'https://by-product-mern-app-backend.vercel.app/api'
 
 function AdminPage() {
 

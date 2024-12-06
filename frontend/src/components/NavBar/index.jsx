@@ -25,6 +25,7 @@ function NavBar({toggleRegister, toggleLogin, isRegisterOpen, isLoginOpen, setCr
       {authToken && userId ?
       <>
         <div className='log-d1-nav'>
+          <button className='code-btn-nav' onClick={() => navigate('/qr')}>QR Code</button>
           <button className='book-btn-nav' onClick={() => navigate('/admin')}>Admin Panel</button>
           <button className='add-btn-nav' onClick={() => setCreate(true)}>Add Menu Item</button>
           <img className='prof-img-nav' src={profileImg} alt='profile_img'></img>
@@ -36,6 +37,7 @@ function NavBar({toggleRegister, toggleLogin, isRegisterOpen, isLoginOpen, setCr
         </div>}
       </> : 
       <div className='nav2-container'>
+        <button className='code-btn-nav' onClick={() => navigate('/qr')}>QR Code</button>
         <button className='reg-btn-nav' onClick={toggleRegister}>Register Now</button>
         <button className='sign-btn-nav' onClick={toggleLogin}>Sign In</button>
       </div>

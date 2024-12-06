@@ -6,8 +6,8 @@ const url = 'http://localhost:3000/menu'
 
 function QRPage() {
   return (
-    <div>
-      <h1>Scan to View Menu</h1>
+    <div className='qr'>
+      <h1 className='qr-head'>Scan to View Menu</h1>
       <QRCodeSVG value={url} />
     </div>
   )
